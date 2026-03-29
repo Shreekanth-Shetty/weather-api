@@ -1,0 +1,11 @@
+# Copy the below content to application-local.properties and fill the configs
+
+spring.datasource.url=jdbc:postgresql://YOUR_SUPABASE_URL/postgres?sslmode=require
+spring.datasource.username=postgres
+spring.datasource.password=YOUR_SUPABASE_PASSWORD
+
+jwt.secret=YOUR_JWT_SECRET_MIN_32_CHARS
+jwt.expiration=86400000
+
+weather.api.key=YOUR_WEATHERAPI_KEY
+weather.api.url=https://api.weatherapi.com/v1
